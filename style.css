@@ -1,0 +1,33 @@
+html {
+	background-color: Black;
+	color: white;
+}
+h1{
+	text-align: center;
+}
+h2{
+	background-color: Blue;
+	font-size: 50px;
+}
+#Quiz-Wrapper{
+	font-size: 30px;
+}
+#submit, #try-again{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+#submit{
+	display: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#pro1, #pro2, #pro3, #pro4, #day1, #day2, #day3, #day4, #hs1, #hs2, #hs3, #hs4, #ex1, #ex2, #ex3, #ex4, #dis1, #dis2, #dis3, #dis4, #no1, #no2, #no3, #no4, #go1, #go2, #go3, #go4, #pi1, #pi2, #pi3, #pi4, #do1, #do2, #do3, #do4, #wr1, #wr2, #wr3, #wo1, #wo2, #wo3{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
