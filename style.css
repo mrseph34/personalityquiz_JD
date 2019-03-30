@@ -1,3 +1,36 @@
+.no1:hover{
+    background-color: darkcyan;
+}
+.no2:hover{
+    background-color: darkcyan;
+}
+.no3:hover{
+    background-color: darkcyan;
+}
+.no4:hover{
+    background-color: darkcyan;
+}
+.no5:hover{
+    background-color: darkcyan;
+}
+.no6:hover{
+    background-color: darkcyan;
+}
+.no7:hover{
+    background-color: darkcyan;
+}
+.no8:hover{
+    background-color: darkcyan;
+}
+.no9:hover{
+    background-color: darkcyan;
+}
+.no10:hover{
+    background-color: darkcyan;
+}
+.no11:hover{
+    background-color: darkcyan;
+}
 html {
 	background-color: Black;
 	color: white;
@@ -6,7 +39,7 @@ h1{
 	text-align: center;
 }
 h2{
-	background-color: Blue;
+	background-color: cyan;
 	font-size: 50px;
 }
 #Quiz-Wrapper{
@@ -30,4 +63,26 @@ h2{
 	margin-right: auto;
 	margin-bottom: 10px;
 	margin-left: auto;
+}
+#try-again{
+  background-color: cyan;
+  padding: .5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 6px;
+  color: dimgrey;
+  font-family: 'Oswald';
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+  background-image: url(nav.png);
+  background-position: center;
+}
+#try-again:hover{
+    background-color: darkcyan;
+}
+#head{
+    background-image: url(SJ.png);
+    color: red;
+    background-position: center;
 }

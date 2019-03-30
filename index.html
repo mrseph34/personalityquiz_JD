@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
 	<title>Shonen Jump Quiz</title>
 	<h1 id = "head">What Shonen Jump character are you?</h1>
-	<link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
 	<button id = "try-again">Try Again</button>
 	<div id = "Quiz-Wrapper">
-		<div id = "Procrast">
-			<h2>How often do you procrastinate?</h2>
-
+            <h2 onclick="open1()" id="1" class="no1">▲How often do you procrastinate?</h2>
+		<div id="Procrast">
 			<input type = "radio" name= "procrast" id = "pro1">
 			<label for = "pro1">All the time</label>
 			<br>
@@ -24,9 +24,8 @@
 			<label for = "pro4">Almost never</label>
 			<br>
 		</div>
+			<h2 onclick="open2()" id="2" class="no2" >▲How many days of the week would you work at most?</h2>
 		<div id = "DayWork">
-			<h2>How many days of the week would you work at most?</h2>
-
 			<input type = "radio" name= "daywork" id = "day1">
 			<label for = "day1">7</label>
 			<br>
@@ -40,8 +39,8 @@
 			<label for = "day4">0-2</label>
 			<br>
 		</div>
+			<h2 onclick="open3()" id="3" class="no3" >▲Do you consider yourself a hard or smart worker?</h2>
 		<div id = "HS">
-			<h2>Do you consider yourself a hard or smart worker?</h2>
 			<input type = "radio" name= "hs" id = "hs1">
 			<label for = "hs1">Super Hard Worker</label>
 			<br>
@@ -49,14 +48,14 @@
 			<label for = "hs2">Hard Worker</label>
 			<br>
 			<input type = "radio" name= "hs" id = "hs3">
-			<label for = "hs3">Super Smart Worker</label>
+			<label for = "hs3">Smart Worker</label>
 			<br>
 			<input type = "radio" name= "hs" id = "hs4">
-			<label for = "hs4">Smart Worker</label>
+			<label for = "hs4">Hard Smart Worker</label>
 			<br>
 		</div>
+            <h2 onclick="open4()" id="4" class="no4" >▲How ofter do you exercise?</h2>
 		<div id = "Exercise">
-			<h2>How ofter do you exercise?</h2>
 			<input type = "radio" name= "exercise" id = "ex1">
 			<label for = "ex1">Rarely</label>
 			<br>
@@ -70,8 +69,8 @@
 			<label for = "ex4">Sometimes</label>
 			<br>
 		</div>
+        	<h2 onclick="open5()" id="5" class="no5" >▲Do you get distracted while working?</h2>
 		<div id = "Distract">
-			<h2>Do you get distracted while working?</h2>
 			<input type = "radio" name= "distract" id = "dis1">
 			<label for = "dis1">Yes</label>
 			<br>
@@ -84,9 +83,9 @@
 			<input type = "radio" name= "distract" id = "dis4">
 			<label for = "dis4">Rarely</label>
 			<br>
-		</div>
+        </div>
+			<h2 onclick="open6()" id="6" class="no6" >▲Where do you keep your notes?</h2>
 		<div id = "Notes">
-			<h2>Where do you keep your notes?</h2>
 			<input type = "radio" name= "notes" id = "no1">
 			<label for = "no1">In my notebooks</label>
 			<br>
@@ -100,8 +99,8 @@
 			<label for = "no4">An organized folder</label>
 			<br>
 		</div>
+        	<h2 onclick="open7()" id="7" class="no7" >▲Do you meet your set goals</h2>
 		<div id = "Goals">
-			<h2>Do you meet your set goals</h2>
 			<input type = "radio" name= "goals" id = "go1">
 			<label for = "go1">Sometimes</label>
 			<br>
@@ -115,8 +114,8 @@
 			<label for = "go4">Nope</label>
 			<br>
 		</div>
+    		<h2 onclick="open8()" id="8" class="no8" >▲Pick one</h2>
 		<div id = "Pick">
-			<h2>Pick one</h2>
 			<input type = "radio" name= "pick" id = "pi1">
 			<label for = "pi1">Work</label>
 			<br>
@@ -130,8 +129,8 @@
 			<label for = "pi4">Rest</label>
 			<br>
 		</div>
+        	<h2 onclick="open9()" id="9" class="no9" >▲Do you make sure something is done well of fast?</h2>
 		<div id = "Done">
-			<h2>Do you make sure something is done well of fast?</h2>
 			<input type = "radio" name= "done" id = "do1">
 			<label for = "do1">Well</label>
 			<br>
@@ -145,8 +144,8 @@
 			<label for = "do4">Depends</label>
 
 		</div>
+			<h2 onclick="open10()" id="10" class="no10" >▲Would You Rather</h2>
 		<div id = "WYR">
-			<h2>Would You Rather</h2>
 			<input type = "radio" name= "wyr" id = "wr1">
 			<label for = "wr1">Be super strong</label>
 			<br>
@@ -157,8 +156,8 @@
 			<label for = "wr3">Have powers</label>
 			<br>
 		</div>
+            <h2 onclick="open11()" id="11" class="no11" >▲If you had a powerful ability you would?</h2>
 		<div id = "Would">
-			<h2>If you had a powerful ability you would?</h2>
 			<input type = "radio" name= "would" id = "wo1">
 			<label for = "wo1">Take over the world</label>
 			<br>
